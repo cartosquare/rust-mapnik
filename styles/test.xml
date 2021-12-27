@@ -1,0 +1,14 @@
+<Map srs="+init=epsg:4326">
+  <Style name="My Style">
+    <Rule>
+      <RasterSymbolizer/>
+    </Rule>
+  </Style>
+  <Layer name="world" srs="+init=epsg:4326">
+    <StyleName>My Style</StyleName>
+    <Datasource>
+      <Parameter name="file">/Users/atlas/Mirror/data/clip2_cog.tif</Parameter>
+      <Parameter name="type">gdal</Parameter>
+    </Datasource>
+  </Layer>
+</Map>
