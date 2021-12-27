@@ -1,5 +1,4 @@
 /target
-/mapnik
 *.png
 .DS_Store
 Cargo.lock
